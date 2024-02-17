@@ -1,0 +1,47 @@
+/* Universal Selector */
+/* *{
+    font-family: Arial, Helvetica, sans-serif;
+    color: aqua;
+} */
+
+/* Element Selector */
+/* h1{
+    color: brown;
+}
+h3,h1{
+    color: rgb(66, 245, 164);
+} */
+
+/* Id Selector */
+/* #login,#signup{
+    color: purple;
+} */
+
+/* Class Selector */
+/* .follow{
+    color: aqua;
+} */
+
+/* Descdent selector */
+/* p a{
+    color: purple;
+} */
+
+/* Adjecent sibling selector */
+/* p + h3{
+    color: aqua;
+} */
+
+/* Child combinator */
+/* span > button{
+    color: aqua;
+} */
+
+/* Pseudo Selector */
+button:hover{
+    background-color : orange;
+}
+
+a:active{
+    color: chartreuse;
+}

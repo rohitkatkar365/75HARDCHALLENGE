@@ -1,0 +1,30 @@
+*{
+    text-align: center;
+}
+#mainid{
+    color: blue;
+}
+h1,h2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+p{
+    background-color: cornflowerblue;
+    color: white;
+}
+button{
+    background-color: purple;
+    color: azure;
+}
+
+button:hover{
+    background-color: yellow;
+    color: blue;
+}
+
+#mainid::first-letter{
+    color: red;
+}
+
+#yes:checked+label{
+    color: darkgreen;
+}

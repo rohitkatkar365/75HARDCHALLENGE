@@ -1,0 +1,45 @@
+div{
+    height: 200px;
+    width : 300px;
+    background-color: aqua;
+    /* border-width: 5px;
+    border-style: dotted;
+    border-color: black; */
+    /* Shorthand */
+    border: 5px dotted blue;
+    /* FOr individual border */
+    /* border-top-color: darkgreen; */
+    /* border-radius: 50px; */
+    border-top-right-radius: 50px;
+
+    /* padding: 20px; */
+    /* padding-top: 20px; */
+    /* padding-left: 20px; */
+    /* padding-bottom: 10px;  */
+    /* padding-right : 4px */
+
+    /* Shorthand */
+    /* top-bottom | left-right */
+    /* padding: 20px 10px; */
+    /* top | left-right |bottom */
+    /* padding: 20px 10px 20px; */
+    /* top | right | bottom |  left*/
+    /* padding: 5px 3px 5px 2px; */
+    
+    margin: 10px;
+    /* margin-top: 100px; */
+    margin-left: 40px;
+    margin-bottom: 20px;
+
+    /* Shorthand */
+    /* top-bottom | left-right */
+    /* margin: 20px 10px; */
+    /* top | left-right |bottom */
+    /* margin: 20px 10px 20px; */
+    /* top | right | bottom |  left*/
+    /* margin: 5px 3px 5px 2px; */
+}
+button{
+    margin-top: 10px;
+    margin-left: 40px;
+}

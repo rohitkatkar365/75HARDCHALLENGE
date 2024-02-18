@@ -1,0 +1,26 @@
+
+/* 
+question 1
+div{
+    height : 100px;
+    width: 100px;
+    background-color: lime;
+    border: 2px dotted black;
+    padding: 1em;
+    margin: 20px 1em 40px 2em;
+} */
+
+/* 
+Question 2
+div{
+    height: 100px;
+    width: 100px;
+    background-color: pink;
+    border: 2px solid black;
+    border-radius: 50%;
+    display: inline-block;
+} */
+
+ul{
+    display: inline;
+}

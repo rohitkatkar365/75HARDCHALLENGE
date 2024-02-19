@@ -1,0 +1,42 @@
+
+#outer{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    background-color: orange;
+    margin: 0 auto;
+}
+
+#inner{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    background-color: black;
+    display: inline-block;
+    position: relative;
+    left: 50px;
+    top: 40px;
+}
+
+#inner1{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    background-color: black;
+    display: inline-block;
+    position: relative;
+    left: 90px;
+    top: 40px;
+}
+
+#mouth{
+    height: 40px;
+    width: 80px;
+    background-color: red;
+    display: inline-block;
+    position: relative;
+    top : 120px;
+    right: 2px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}

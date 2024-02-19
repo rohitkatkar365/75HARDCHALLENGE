@@ -1,0 +1,35 @@
+#outer{
+    margin: 50px;
+}
+
+div{
+    height: 50px;
+    width: 200px;
+    text-align: center;
+    margin: 0 auto;
+    border: 2px solid black;
+    margin-top: 10px;
+}
+
+.one{
+    background-color: rgba(157, 255, 0);
+    opacity: 1;
+    /* transform: rotate(45deg); */
+}
+
+
+.two{
+    background-color: blue;
+    /* transform: scale(2); */
+}
+
+.three{
+    background-color: brown;
+    transform: scale(0.5,2);
+}
+
+.four{
+    background-color: bisque;
+    /* transform: translate(50px,100px); */
+    transform: skew(20deg);
+}

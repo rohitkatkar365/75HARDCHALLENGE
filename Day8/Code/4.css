@@ -1,0 +1,18 @@
+div{
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+    box-shadow: 2px 2px 1px black;
+
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+
+#img{
+    width: 200px;
+    height: 100px;
+    background-color: aqua;
+    background-image: url("Boxmodell-detail.png");
+    background-size: contain;
+}

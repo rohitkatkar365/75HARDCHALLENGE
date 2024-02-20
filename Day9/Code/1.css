@@ -1,0 +1,38 @@
+#container{
+    height: 300px;
+    width: 80%;
+    border: 2px solid black;
+    margin: 0 auto;
+    background-color:azure;
+    display: flex;
+    flex-direction: row;
+    /* flex-direction: row-reverse;     */
+    /* flex-direction: column; */
+    /* flex-direction: column-reverse; */
+    justify-content: flex-start;
+    /* justify-content: flex-end; */
+    /* justify-content: center; */
+    /* justify-content: space-around; */
+    /* justify-content: space-between; */
+    /* justify-content: space-evenly; */
+    /* flex-wrap: nowrap; */
+    /* flex-wrap: wrap; */
+    /* flex-wrap: wrap-reverse; */
+    /* align-items: flex-end; */
+    /* align-items: center; */
+    /* align-items: flex-start; */
+    /* align-items: baseline; */
+    
+}
+
+#container div{
+    height: 50px;
+    width: 100px;
+    color: white;
+    text-align: center;
+    font-size: 1.5em;
+}
+
+#col{
+    align-self: center;
+}

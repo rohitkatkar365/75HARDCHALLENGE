@@ -1,0 +1,12 @@
+.container{
+    background-color: yellow;
+}
+
+span{
+    margin: 10px;
+    padding: 10px;
+}
+
+.btn-group{
+    margin: 10px;
+}

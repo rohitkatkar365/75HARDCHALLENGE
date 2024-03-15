@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instagram</title>
+    <link rel="stylesheet" href="/public/style.css">
+</head>
+<body>
+    <h1>This page belong to @<%= data.name %></h1>
+    <button>Follow</button>
+    <button type="submit">Message</button>
+    <br>
+    <br>
+    <p style="display: inline;">Follers:<%= data.followers %></p>&nbsp;<p style="display: inline;">    Following :<%= data.following %></p>
+    <hr><hr>
+
+    <% for(let post of data.posts) {%>
+        <img src="<%=post.image%>">
+        <p>Likes :<%=post.likes%></p>
+        <p>Comment : <%= post.likes %></p>
+    <%}%>
+    </body>
+</html>
